@@ -682,8 +682,9 @@ The Current Maintainer of this work is **Mingyu Xia**.
       {
         \bool_if:NT \l_@@_load_bib_bool
           {
-            \RequirePackage [ sort, uppercasefamily = false ] { gbt7714 }
-            \bibliographystyle { gbt7714-numeric }
+            \RequirePackage [ sort, capitalizesubtitle,
+                              sentencecasetitle = false ] { gbt7714 }
+            \bibliographystyle { gbt7714-2025-numeric }
           }
       }
   }
@@ -846,14 +847,14 @@ The Current Maintainer of this work is **Mingyu Xia**.
           {
             \DeclareDocumentCommand \printbibliography {}
               {
-                \addcontentsline{toc}{chapter}{参考文献}
+                \addcontentsline { toc } { chapter } { \bibname }
                 \group_begin:
                   \dim_set:Nn \bibsep {1pt}
-                  \linespread{1.85} \@@_fontsize:nn { cn } { 5 }
+                  \linespread { 1.85 } \@@_fontsize:nn { cn } { 5 }
                   \bibliography { \l_@@_set_bib_str }
                 \group_end:
               }
-          } { \newcommand \printbibliography { \chapter* { 参考文献 } } }
+          } { \newcommand \printbibliography { \chapter* { \bibname } } }
       }
   }
 %    \end{macrocode}
@@ -1276,18 +1277,19 @@ The Current Maintainer of this work is **Mingyu Xia**.
 %    \end{macrocode}
 % Table of contents format.
 %    \begin{macrocode}
-\ctex_set:n { contentsname = 目\quad 录, secnumdepth = 3 }
-\renewcommand \cftchapfont     { \sffamily                  }
-\renewcommand \cftchappagefont { \mdseries                  }
-\renewcommand \cftchapleader   { \cftdotfill { \cftdotsep } }
+\ctex_heading_depth:nn         { secnumdepth          } { 3 }
+\tl_set:Nn  \contentsname      { 目\quad 录                 }
+\tl_set:Nn  \cftdotsep         { .5                         }
+\tl_set:Nn  \@pnumwidth        { 2ex                        }
+\tl_set:Nn  \cftchapfont       { \sffamily                  }
+\tl_set:Nn  \cftchappagefont   { \mdseries                  }
+\tl_set:Nn  \cftchapleader     { \cftdotfill { \cftdotsep } }
 \dim_set:Nn \cftbeforechapskip { \c_zero_dim                }
 \dim_set:Nn \cftbeforesecskip  { \c_zero_dim                }
 \dim_set:Nn \cftsecindent      { \ccwd                      }
 \dim_set:Nn \cftsubsecindent   { 2\ccwd                     }
 \dim_set:Nn \cftsecnumwidth    { \ccwd                      }
 \dim_set:Nn \cftsubsecnumwidth { 2\ccwd                     }
-\renewcommand \cftdotsep       { .5                         }
-\renewcommand \@pnumwidth      { 2ex                        }
 %    \end{macrocode}
 % End the optionlist |thesis| for \pkg{l3docstrip}.
 %    \begin{macrocode}
@@ -1350,7 +1352,6 @@ The Current Maintainer of this work is **Mingyu Xia**.
 %     \l_@@_UNIVERSITY_hologo_box
 %   }
 % Boxes for saving \hologo{WESTLAKE} and \hologo{UNIVERSITY}.
-%    \begin{macrocode}
 %    \begin{macrocode}
 \box_new:N \l_WESTLAKE_hologo_box
 \box_new:N \l_UNIVERSITY_hologo_box

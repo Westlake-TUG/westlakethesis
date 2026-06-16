@@ -1,0 +1,97 @@
+# Shell
+l3build
+latex-bin
+latexmk
+makeindex
+pdftex
+xetex
+#
+# DEV
+latex-bin-dev
+latex-base-dev
+latex-amsmath-dev
+latex-firstaid-dev
+latex-graphics-dev
+l3backend-dev
+l3kernel-dev
+latex-lab-dev
+latex-tools-dev
+xelatex-dev
+#
+# l3doc
+l3kernel
+## Base
+latex
+## Required
+graphics
+tools
+psnfss
+## Generic
+hologo
+## Contrib
+alphalph
+amsmath
+amsfonts
+booktabs
+cm-super
+colortbl
+csquotes
+ec
+enumitem
+fancyvrb
+hypdoc
+hyperref
+lm
+manfnt
+metafont
+mfware
+oberdiek
+underscore
+xcolor
+#
+# Engines
+## pdfTeX
+cjk
+cjkpunct
+zhmetrics
+## XeTeX
+xecjk
+fontspec
+l3packages
+## upTeX
+zhmetrics-uptex
+## LuaTeX
+luatexja
+adobemapping
+luaotfload
+lualibs
+luatexbase
+ctablestack
+atbegshi
+etoolbox
+iftex
+infwarerr
+ltxcmds
+pdftexcmds
+xkeyval
+chinese-jfm
+#
+# Required
+anyfontsize
+array
+docext
+gbt7714
+geometry
+l3experimental
+lipsum
+microtype
+newtx
+zhlineskip
+zhlipsum
+#
+# Preamble
+libertine
+### Required by `pdfpages`
+pdflscape
+###
+pdfpages
