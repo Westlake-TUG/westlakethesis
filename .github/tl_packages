@@ -87,7 +87,7 @@ lxgw-fonts
 microtype
 newtx
 ### Required by `zhlineskip`
-xintexpr
+xint
 ###
 zhlineskip
 zhlipsum
