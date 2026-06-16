@@ -85,6 +85,9 @@ l3experimental
 lipsum
 lxgw-fonts
 microtype
+### Required by `newtx`
+xpatch
+###
 newtx
 ### Required by `zhlineskip`
 ##### Required by `xint`
