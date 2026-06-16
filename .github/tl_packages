@@ -86,7 +86,9 @@ lipsum
 lxgw-fonts
 microtype
 ### Required by `newtx`
+carlisle
 xpatch
+xstring
 ###
 newtx
 ### Required by `zhlineskip`
