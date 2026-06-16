@@ -83,8 +83,12 @@ gbt7714
 geometry
 l3experimental
 lipsum
+lxgw-fonts
 microtype
 newtx
+### Required by `zhlineskip`
+xintexpr
+###
 zhlineskip
 zhlipsum
 #
