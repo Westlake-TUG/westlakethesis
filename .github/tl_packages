@@ -87,6 +87,9 @@ lxgw-fonts
 microtype
 newtx
 ### Required by `zhlineskip`
+##### Required by `xint`
+poormanlog
+#####
 xint
 ###
 zhlineskip
