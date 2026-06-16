@@ -114,6 +114,7 @@ zhlipsum
 #
 # Preamble
 libertine
+mwe
 ### Required by `pdfpages`
 pdflscape
 ###
