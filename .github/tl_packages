@@ -78,8 +78,18 @@ chinese-jfm
 #
 # Required
 anyfontsize
+### Required by `beamertheme-westlake`
+beamer
+pgf
+ragged2e
+###
+beamertheme-westlake
 docext
 gbt7714
+### Required by `geometry`
+epstopdf-pkg
+ifoddpage
+###
 geometry
 l3experimental
 lipsum
