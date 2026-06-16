@@ -84,6 +84,7 @@ pgf
 ragged2e
 ###
 beamertheme-westlake
+bibtex8
 docext
 gbt7714
 ### Required by `geometry`
