@@ -20,7 +20,7 @@ jobs:
         with:
           package_file: .github/tl_packages
       - name: Run l3build
-        id: test-docext
+        id: test-thesis
         run: l3build check --dev
       - name: Get short commit SHA
         if: ${{ !cancelled() && (steps.test-docext.outcome == 'failure') }}
@@ -30,7 +30,7 @@ jobs:
         if: ${{ !cancelled() && (steps.test-docext.outcome == 'failure') }}
         uses: actions/upload-artifact@v7
         with:
-          name: docext-diff-${{ env.SHA_SHORT }}-${{ runner.os }}
+          name: thesis-diff-${{ env.SHA_SHORT }}-${{ runner.os }}
           path: |
             build/**/*.diff
             build/**/*.fc
