@@ -682,8 +682,9 @@ The Current Maintainer of this work is **Mingyu Xia**.
       {
         \bool_if:NT \l_@@_load_bib_bool
           {
-            \RequirePackage [ sort, capitalizesubtitle,
-                              sentencecasetitle = false ] { gbt7714 }
+            \RequirePackage [ sort, sentencecase = false, capitalizesubtitle,
+                                    spacebeforetypeid,    journaldots ]
+                            { gbt7714 }
             \bibliographystyle { gbt7714-2025-numeric }
           }
       }
