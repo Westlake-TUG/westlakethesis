@@ -1,3 +1,4 @@
-# New package `westlakethesis` on CTAN
+# Version 0.0.2 released.
 
-The `WestlakeThesis` is a LaTeX bundle for Westlake University dissertations, including Ph.D. thesis format, beamer theme, and poster template.
+- Updated the configuration of the `gbt7714` package.
+- Using the developing-level function `\ctex_heading_depth:nn` instead of `\ctex_set:n` to speedup parsing.
