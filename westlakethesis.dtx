@@ -856,7 +856,11 @@ The Current Maintainer of this work is **Mingyu Xia**.
                       \linespread { 1.85 } \@@_fontsize:nn { cn } { 5 }
                       \bibliography { \l_@@_set_bib_str }
                     \group_end:
-                  } { \bibliography { \l_@@_set_bib_str } }
+                  }
+                  {
+                    \gbtsetup { bibpunct = half }
+                    \bibliography { \l_@@_set_bib_str }
+                  }
               }
           } { \newcommand \printbibliography { \chapter* { \bibname } } }
       }
