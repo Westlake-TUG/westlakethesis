@@ -6,8 +6,8 @@
     Basic Information: Do Check Before Push
 --]==========================================================================]--
 module              = "westlakethesis"
-version             = "v0.0.2"
-date                = "2026-06-18"
+version             = "v0.1.0"
+date                = "2026-06-30"
 maintainer          = "Mingyu Xia"
 uploader            = "Mingyu Xia"
 maintainid          = "myhsia"
