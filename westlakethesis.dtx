@@ -848,12 +848,15 @@ The Current Maintainer of this work is **Mingyu Xia**.
           {
             \DeclareDocumentCommand \printbibliography {}
               {
-                \addcontentsline { toc } { chapter } { \bibname }
-                \group_begin:
-                  \dim_set:Nn \bibsep {1pt}
-                  \linespread { 1.85 } \@@_fontsize:nn { cn } { 5 }
-                  \bibliography { \l_@@_set_bib_str }
-                \group_end:
+                \cs_if_exist:cTF { ver@ctexrep.cls }
+                  {
+                    \addcontentsline { toc } { chapter } { \bibname }
+                    \group_begin:
+                      \dim_set:Nn \bibsep {1pt}
+                      \linespread { 1.85 } \@@_fontsize:nn { cn } { 5 }
+                      \bibliography { \l_@@_set_bib_str }
+                    \group_end:
+                  } { \bibliography { \l_@@_set_bib_str } }
               }
           } { \newcommand \printbibliography { \chapter* { \bibname } } }
       }
