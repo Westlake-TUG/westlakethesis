@@ -1,8 +1,8 @@
 [![CTAN Version](https://img.shields.io/ctan/v/westlakethesis)](https://ctan.org/pkg/westlakethesis)
-[![GitHub Release](https://img.shields.io/github/v/release/myhsia/westlakethesis)](https://github.com/myhsia/westlakethesis/releases/latest)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/myhsia/westlakethesis)](https://github.com/myhsia/westlakethesis/commits)
-[![Actions Status](https://github.com/myhsia/westlakethesis/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/myhsia/westlakethesis/actions)
-[![GitHub Repo stars](https://img.shields.io/github/stars/myhsia/westlakethesis)](https://github.com/myhsia/westlakethesis)
+[![GitHub Release](https://img.shields.io/github/v/release/Westlake-TUG/westlakethesis)](https://github.com/Westlake-TUG/westlakethesis/releases/latest)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/Westlake-TUG/westlakethesis)](https://github.com/Westlake-TUG/westlakethesis/commits)
+[![Actions Status](https://github.com/Westlake-TUG/westlakethesis/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/Westlake-TUG/westlakethesis/actions)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Westlake-TUG/westlakethesis)](https://github.com/Westlake-TUG/westlakethesis)
 
 The `WestlakeThesis` LaTeX bundle
 =================================
@@ -23,7 +23,7 @@ Issues
 ------
 
 The issue tracker for `WestlakeThesis` is currently located
-[on GitHub](https://github.com/myhsia/westlakethesis/issues).
+[on GitHub](https://github.com/Westlake-TUG/westlakethesis/issues).
 
 Build status
 ------------
@@ -33,7 +33,7 @@ hosted continuous integration service. For each commit, the build status is
 tested using the current release of TeX Live.
 
 _Current build status:_
-![build status](https://github.com/myhsia/westlakethesis/actions/workflows/test.yaml/badge.svg?branch=main)
+![build status](https://github.com/Westlake-TUG/westlakethesis/actions/workflows/test.yaml/badge.svg?branch=main)
 
 Copyright and License
 ---------------------
