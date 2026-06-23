@@ -508,11 +508,6 @@ The Current Maintainer of this work is **Mingyu Xia**.
       \clist_gset:Nn \g_@@_module_usage_clist
         { depend, kernel, params, thesis }
     }
-    { usrdoc }
-    {
-      \clist_gset:Nn \g_@@_module_usage_clist
-        { depend, kernel, usrdoc }
-    }
     { beamer }
     {
       \clist_gset:Nn \g_@@_module_usage_clist
@@ -522,6 +517,11 @@ The Current Maintainer of this work is **Mingyu Xia**.
     {
       \clist_gset:Nn \g_@@_module_usage_clist
         { poster }
+    }
+    { usrdoc }
+    {
+      \clist_gset:Nn \g_@@_module_usage_clist
+        { depend, kernel, usrdoc }
     }
   } { \__wu_msg_error:nn { unknown mode } { \g__wu_clsoption_mode_str } }
 \@@_load_module:N \g_@@_module_usage_clist
@@ -646,17 +646,17 @@ The Current Maintainer of this work is **Mingyu Xia**.
         { aspectratio = 1610 }
       \exp_args:NNV \LoadClass [ \g_@@_base_cls_opt_clist ] { beamer }
     }
-    { usrdoc }
-    {
-      \clist_gput_right:Nn \g_@@_base_cls_opt_clist
-        { 11pt, letterpaper, cs-break = true }
-      \exp_args:NNV \LoadClass [ \g_@@_base_cls_opt_clist ] { l3doc  }
-    }
     { poster }
     {
       \clist_gput_right:Nn \g_@@_base_cls_opt_clist
         { }
       \exp_args:NNV \LoadClass [ \g_@@_base_cls_opt_clist ] { beamer }
+    }
+    { usrdoc }
+    {
+      \clist_gput_right:Nn \g_@@_base_cls_opt_clist
+        { 11pt, letterpaper, cs-break = true }
+      \exp_args:NNV \LoadClass [ \g_@@_base_cls_opt_clist ] { l3doc  }
     }
   }
 %    \end{macrocode}
