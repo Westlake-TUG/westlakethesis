@@ -124,6 +124,7 @@ Completed box being shipped out [1]
 .........\kern -0.99649
 .........\kern 0.99649
 .........\glue 8.32309 minus 6.03455
+.........\penalty 0
 ........\glue(\tabskip) 0.0
 ........\hbox(10.11775+12.93623)x82.7267
 .........\vbox(10.11775+12.93623)x76.7267
@@ -184,6 +185,7 @@ Completed box being shipped out [1]
 .........\kern -0.99649
 .........\kern 0.99649
 .........\glue 8.32309 minus 6.03455
+.........\penalty 0
 ........\glue(\tabskip) 0.0
 ........\hbox(10.11775+12.93623)x82.7267
 .........\vbox(10.11775+12.93623)x76.7267
@@ -314,8 +316,6 @@ Completed box being shipped out [1]
 .......\TU/LXGWNeoXiHei(0)/m/n/26.09749 基
 .......\glue 0.0 plus 3.95908
 .......\TU/LXGWNeoXiHei(0)/m/n/26.09749 于
-.......\kern -0.00018
-.......\kern 0.00018
 .......\glue 8.16852 plus 4.08426 minus 2.72284
 .......\TU/lmss/m/n/26.09749 L
 .......\kern -0.0002
@@ -416,6 +416,7 @@ Completed box being shipped out [1]
 .........\kern -0.99649
 .........\kern 0.99649
 .........\glue 11.0334 minus 8.03
+.........\penalty 0
 ........\glue(\tabskip) 0.0
 ........\hbox(18.21204+13.40527)x114.40508
 .........\vbox(18.21204+13.40527)x108.40508
@@ -486,6 +487,7 @@ Completed box being shipped out [1]
 .........\kern -0.99649
 .........\kern 0.99649
 .........\glue 11.0334 minus 8.03
+.........\penalty 0
 ........\glue(\tabskip) 0.0
 ........\hbox(18.21204+13.40527)x114.40508
 .........\vbox(18.21204+13.40527)x108.40508
@@ -554,6 +556,7 @@ Completed box being shipped out [1]
 .........\kern -0.99649
 .........\kern 0.99649
 .........\glue 11.0334 minus 8.03
+.........\penalty 0
 ........\glue(\tabskip) 0.0
 ........\hbox(18.21204+13.40527)x114.40508
 .........\vbox(18.21204+13.40527)x108.40508
@@ -626,6 +629,7 @@ Completed box being shipped out [1]
 .........\kern -0.99649
 .........\kern 0.99649
 .........\glue 11.0334 minus 8.03
+.........\penalty 0
 ........\glue(\tabskip) 0.0
 ........\hbox(18.21204+13.40527)x114.40508
 .........\vbox(18.21204+13.40527)x108.40508
@@ -1401,7 +1405,6 @@ LaTeX Font Info:    Font shape `TU/LXGWNeoXiHei(0)/m/n' will be
 (Font)              scaled to size 13.04874pt on input line ....
 LaTeX Font Info:    Font shape `TU/LXGWNeoXiHei(0)/m/n' will be
 (Font)              scaled to size 12.045pt on input line ....
-Missing character: There is no ​ (U+200B) in font [TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
 ============================================================
 ============================================================
 TEST 4: Basic Usage of WestlakeThesis: Commitment
@@ -1463,7 +1466,7 @@ Completed box being shipped out [3]
 .....\TU/LXGWNeoXiHei(0)/m/n/16.06 江
 .....\glue 0.0 plus 1.36491
 .....\TU/LXGWNeoXiHei(0)/m/n/16.06 省
-.....\glue 5.02678 plus 2.51086 minus 1.67725
+.....\glue 5.02678 plus 2.51338 minus 1.67558
 .....\TU/lmss/m/n/16.06 Zhejiang
 .....\kern -0.0002
 .....\kern 0.0002
@@ -1481,7 +1484,7 @@ Completed box being shipped out [3]
 .....\TU/LXGWNeoZhiSong(0)/m/n/12.045 州
 .....\glue 0.0 plus 0.60463
 .....\TU/LXGWNeoZhiSong(0)/m/n/12.045 市
-.....\glue 3.01125 plus 1.5041 minus 1.00473
+.....\glue 3.01125 plus 1.50562 minus 1.00374
 .....\TU/TeXGyreTermesX(0)/m/n/12.045 Hangzhou
 .....\penalty 10000
 .....\glue(\parfillskip) 0.0 plus 1.0fil
@@ -1506,7 +1509,7 @@ Completed box being shipped out [3]
 .....\TU/LXGWNeoXiHei(0)/m/n/14.05249 湖
 .....\glue 0.0 plus 0.8653
 .....\TU/LXGWNeoXiHei(0)/m/n/14.05249 区
-.....\glue 4.58112 plus 2.28825 minus 1.52856
+.....\glue 4.58112 plus 2.29056 minus 1.52704
 .....\TU/lmss/m/n/14.05249 Xihu
 .....\glue 4.58112 plus 2.29056 minus 1.52704
 .....\TU/lmss/m/n/14.05249 District
@@ -1528,7 +1531,7 @@ Completed box being shipped out [3]
 .....\TU/LXGWNeoZhiSong(0)/m/n/12.045 墩
 .....\glue 0.0 plus 0.60463
 .....\TU/LXGWNeoZhiSong(0)/m/n/12.045 镇
-.....\glue 3.01125 plus 1.5041 minus 1.00473
+.....\glue 3.01125 plus 1.50562 minus 1.00374
 .....\TU/TeXGyreTermesX(0)/m/n/12.045 Sandun
 .....\glue 3.01125 plus 1.50562 minus 1.00374
 .....\TU/TeXGyreTermesX(0)/m/n/12.045 Town
@@ -1559,7 +1562,7 @@ Completed box being shipped out [3]
 .....\TU/lmss/m/n/13.04874 600
 .....\glue 4.25389 plus 2.12694 minus 1.41795
 .....\TU/LXGWNeoXiHei(0)/m/n/13.04874 号
-.....\glue 4.25389 plus 2.1248 minus 1.41937
+.....\glue 4.25389 plus 2.12694 minus 1.41795
 .....\TU/lmss/m/n/13.04874 No.600,
 .....\glue 4.25389 plus 2.65866 minus 1.13435
 .....\TU/lmss/m/n/13.04874 Dunyu
@@ -1632,7 +1635,7 @@ Completed box being shipped out [3]
 .....\TU/LXGWNeoXiHei(0)/m/n/12.045 交
 .....\glue 0.0 plus 0.60463
 .....\TU/LXGWNeoXiHei(0)/m/n/12.045 通
-.....\glue 3.92667 plus 1.96136 minus 1.31018
+.....\glue 3.92667 plus 1.96333 minus 1.30888
 .....\TU/lmss/m/n/12.045 Public
 .....\glue 3.92667 plus 1.96333 minus 1.30888
 .....\TU/lmss/m/n/12.045 Transport
@@ -1652,7 +1655,7 @@ Completed box being shipped out [3]
 ....\glue 7.0 plus -2.5 minus -1.0
 ....\glue(\parskip) 5.0 plus 2.5 minus 1.0
 ....\glue(\parskip) 0.0
-....\hbox(10.0571+2.6258)x386.83289, glue set 141.87376fil, shifted 30.0
+....\hbox(10.0571+2.6258)x386.83289, glue set 144.88501fil, shifted 30.0
 .....\hbox(8.14243+0.13248)x0.0
 ......\glue 0.0
 ......\glue -24.0
@@ -1683,8 +1686,6 @@ Completed box being shipped out [3]
 .....\TU/LXGWNeoZhiSong(0)/m/n/12.045 （在
 .....\glue 0.0 plus 0.60463
 .....\TU/LXGWNeoZhiSong(0)/m/n/12.045 建
-.....\glue 3.01125 plus 1.50562 minus 1.00374
-.....\TU/TeXGyreTermesX(0)/m/n/12.045 ​
 .....\penalty 10000
 .....\TU/LXGWNeoZhiSong(0)/m/n/12.045 ）
 .....\rule(0.0+0.0)x-7.82808

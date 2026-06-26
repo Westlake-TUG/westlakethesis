@@ -16,7 +16,6 @@ repository          = "https://github.com/" .. maintainid .. "/" .. module
 summary             = "LaTeX bundle for Westlake University dissertations."
 description         = "The `WestlakeThesis` is a LaTeX bundle for Westlake University dissertations, including Ph.D. thesis and Beamer theme."
 
-
 --[==========================================================================[--
     Configuration: Check, Tag, Pack, Upload     Do NOT Modify if Unnecessary
 --]==========================================================================]--
