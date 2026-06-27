@@ -102,6 +102,8 @@ xpatch
 xstring
 ###
 newtx
+tex-gyre
+tocloft
 ### Required by `zhlineskip`
 ##### Required by `xint`
 poormanlog
@@ -109,8 +111,6 @@ poormanlog
 xint
 mathtools
 ###
-tex-gyre
-tocloft
 zhlineskip
 zhlipsum
 #
