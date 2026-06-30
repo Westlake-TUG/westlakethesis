@@ -105,10 +105,6 @@ newtx
 tex-gyre
 tocloft
 ### Required by `zhlineskip`
-##### Required by `xint`
-poormanlog
-#####
-xint
 mathtools
 ###
 zhlineskip
